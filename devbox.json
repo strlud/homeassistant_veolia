@@ -1,0 +1,14 @@
+{
+  "packages": [
+    "python@3.13"
+  ],
+  "shell": {
+    "init_hook": [
+      ". $VENV_DIR/bin/activate",
+      "pip install homeassistant"
+    ],
+    "scripts": {
+      "run_test": "python main.py"
+    }
+  }
+}
